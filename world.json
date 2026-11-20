@@ -1,0 +1,45 @@
+{
+  "start": "crossroads",
+  "regions": [
+    {
+      "id": "crossroads",
+      "name": "The Weeping Crossroads",
+      "description": "A crooked gallows stands where three muddy paths meet.",
+      "danger": 1,
+      "foes": ["goblin", "bandit", "rat"],
+      "exits": ["ashen-marsh", "sunken-crypt"]
+    },
+    {
+      "id": "ashen-marsh",
+      "name": "Ashen Marsh",
+      "description": "Fog, iron, and things that breathe under the water.",
+      "danger": 2,
+      "foes": ["goblin", "skeleton", "ghoul"],
+      "exits": ["crossroads", "drowned-chapel"]
+    },
+    {
+      "id": "sunken-crypt",
+      "name": "Sunken Crypt",
+      "description": "Cold stone steps descending into pitch-black silence.",
+      "danger": 2,
+      "foes": ["skeleton", "zombie", "shadow"],
+      "exits": ["crossroads", "citadel-of-ash"]
+    },
+    {
+      "id": "drowned-chapel",
+      "name": "Drowned Chapel",
+      "description": "Knee-deep black water laps against shattered pews.",
+      "danger": 3,
+      "foes": ["ghoul", "wight", "gargoyle"],
+      "exits": ["ashen-marsh", "citadel-of-ash"]
+    },
+    {
+      "id": "citadel-of-ash",
+      "name": "Citadel of Ash",
+      "description": "Embers drift from a sky cracked like old porcelain.",
+      "danger": 4,
+      "foes": ["ogre", "owlbear", "hell-hound"],
+      "exits": ["sunken-crypt", "drowned-chapel"]
+    }
+  ]
+}
